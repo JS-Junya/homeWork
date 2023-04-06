@@ -1,7 +1,6 @@
 setNum = 6
 for i in range(10):
     inNum = eval(input("请输入一个整数："))
-    print("输入错误")
     if inNum < setNum:
         print("遗憾，太小了")
     elif inNum > setNum:
